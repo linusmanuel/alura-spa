@@ -148,9 +148,10 @@ nav ul li a:hover {
 }
 
 footer {
+  background-image: linear-gradient(to left, #495371, #f1e0ac);
   text-align: center;
   padding: 1.2rem;
-  border-top: solid 1px #495371;
+  border-top: solid 2px #495371;
   font-size: 1.5rem;
   color: #495371;
   font-weight: bold;
