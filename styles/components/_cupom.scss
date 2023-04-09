@@ -1,0 +1,12 @@
+.cupom {
+  background-color: $tertiary;
+  padding: 4rem;
+  text-align: center;
+  .texto {
+    color: $primary;
+    h2 {
+      margin: 2rem;
+      font-size: $text-size / 1.7;
+    }
+  }
+}
