@@ -1,0 +1,16 @@
+nav {
+  ul {
+    text-align: center;
+    li {
+      padding: 1.5rem;
+      display: inline-block;
+
+      a {
+        text-transform: uppercase;
+        font-weight: bold;
+        text-decoration: none;
+        color: $primary;
+      }
+    }
+  }
+}

@@ -1,4 +1,18 @@
 body,
 html {
   font-family: "Roboto", sans-serif;
+}
+
+nav ul {
+  text-align: center;
+}
+nav ul li {
+  padding: 1.5rem;
+  display: inline-block;
+}
+nav ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  color: #495371;
 }/*# sourceMappingURL=style.css.map */
