@@ -30,4 +30,21 @@
       box-shadow: 1px 1px 8px 1px $primary;
     }
   }
+  button {
+    height: 40px;
+    width: 130px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    background-color: $primary;
+    color: $secondary;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-size: 18px;
+    &:hover {
+      background-color: $secondary;
+      color: $primary;
+    }
+  }
 }

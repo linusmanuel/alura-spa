@@ -128,4 +128,21 @@ nav ul li a:hover {
 }
 .cupom .input:hover, .cupom .input:focus {
   box-shadow: 1px 1px 8px 1px #495371;
+}
+.cupom button {
+  height: 40px;
+  width: 130px;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  background-color: #495371;
+  color: #74959A;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-size: 18px;
+}
+.cupom button:hover {
+  background-color: #74959A;
+  color: #495371;
 }/*# sourceMappingURL=style.css.map */
