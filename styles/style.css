@@ -19,4 +19,49 @@ nav ul li a {
 nav ul li a:hover {
   color: #74959A;
   transition: all 0.2s;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  opacity: 0.9;
+}
+.banner__inner {
+  padding: 3rem;
+  background-color: #f1e0ac;
+  border-radius: 45px;
+  opacity: 0.9;
+  text-align: center;
+}
+.banner h1 {
+  color: #495371;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.banner h2 {
+  font-size: 1.5rem;
+  color: #74959A;
+}
+
+.servicos {
+  margin: 80px;
+}
+.servicos h3 {
+  font-size: 1.2rem;
+  color: #74959A;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+  margin: 1rem;
+  text-align: center;
+}
+.servicos h4 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 80px;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */

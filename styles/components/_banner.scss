@@ -1,0 +1,23 @@
+.banner {
+  @include center;
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  opacity: .9;
+  &__inner {
+    padding: 3rem;
+    background-color: $tertiary;
+    border-radius: 45px;
+    opacity: .9;
+    text-align: center;
+  }
+  h1  {
+    color: $primary;
+    font-size: $text-size;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: $text-size / 2;
+    color: $secondary;
+  }
+}

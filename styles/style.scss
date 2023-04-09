@@ -1,3 +1,6 @@
 @import './abstract/base';
-@import './components/navbar';
+@import './abstract/mixin';
 @import './abstract/variables';
+@import './components/navbar';
+@import './components/banner';
+@import './components/servicos';

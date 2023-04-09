@@ -1,0 +1,18 @@
+.servicos {
+  margin: 80px;
+  h3 {
+    font-size: $text-size / 2.5;
+    color: $secondary;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    margin: 1rem;
+    text-align: center;
+  }
+  h4 {
+    font-size: $text-size / 1.2;
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 300;
+  }
+}
